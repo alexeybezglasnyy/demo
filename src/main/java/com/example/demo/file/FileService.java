@@ -1,4 +1,4 @@
-package com.test.example.demo.file;
+package com.example.demo.file;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

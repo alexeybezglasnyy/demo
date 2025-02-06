@@ -1,4 +1,4 @@
-package com.test.example.demo.file;
+package com.example.demo.file;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

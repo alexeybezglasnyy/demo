@@ -1,6 +1,6 @@
-package com.test.example.demo.file;
+package com.example.demo.file;
 
-import com.test.example.demo.messages.MessageProducer;
+import com.example.demo.messages.MessageProducer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

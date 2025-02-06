@@ -1,6 +1,6 @@
-package com.test.example.demo.file;
+package com.example.demo.file;
 
-import static com.test.example.demo.utils.Utils.formatDate;
+import static com.example.demo.utils.Utils.formatDate;
 
 public class FileMapper {
 

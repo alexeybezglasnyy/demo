@@ -1,4 +1,4 @@
-package com.test.example.demo.messages;
+package com.example.demo.messages;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.Queue;

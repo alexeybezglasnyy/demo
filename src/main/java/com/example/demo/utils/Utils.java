@@ -1,9 +1,9 @@
-package com.test.example.demo.utils;
+package com.example.demo.utils;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-import static com.test.example.demo.utils.Constants.DATE_TIME_PATTERN;
+import static com.example.demo.utils.Constants.DATE_TIME_PATTERN;
 import static java.time.format.DateTimeFormatter.ofPattern;
 import static java.util.UUID.randomUUID;
 

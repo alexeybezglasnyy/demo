@@ -1,4 +1,4 @@
-package com.test.example.demo.utils;
+package com.example.demo.utils;
 
 public class Constants {
     public final static String MY_QUEUE = "MyQueue";

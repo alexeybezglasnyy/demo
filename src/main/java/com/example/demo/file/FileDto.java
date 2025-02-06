@@ -1,4 +1,4 @@
-package com.test.example.demo.file;
+package com.example.demo.file;
 
 import lombok.Builder;
 import lombok.Data;

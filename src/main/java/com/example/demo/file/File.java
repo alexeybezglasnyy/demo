@@ -1,6 +1,6 @@
-package com.test.example.demo.file;
+package com.example.demo.file;
 
-import com.test.example.demo.utils.FileStatus;
+import com.example.demo.utils.FileStatus;
 import jakarta.persistence.*;
 import lombok.Data;
 

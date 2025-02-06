@@ -1,10 +1,10 @@
-package com.test.example.demo.messages;
+package com.example.demo.messages;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 
-import static com.test.example.demo.utils.Constants.MY_QUEUE;
+import static com.example.demo.utils.Constants.MY_QUEUE;
 
 @Slf4j
 @Service
