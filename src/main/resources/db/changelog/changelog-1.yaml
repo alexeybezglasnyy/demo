@@ -1,0 +1,59 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: alex
+      changes:
+        - insert:
+            tableName: files
+            columns:
+              - column:
+                  name: name
+                  value: 'newFile.txt'
+              - column:
+                  name: token
+                  value: 'asdfg'
+              - column:
+                  name: state
+                  value: 'NEW'
+              - column:
+                  name: size
+                  value: 30
+              - column:
+                  name: user_name
+                  value: 'alexey'
+        - insert:
+            tableName: files
+            columns:
+              - column:
+                  name: name
+                  value: 'newFile_2.txt'
+              - column:
+                  name: token
+                  value: 'qwerty'
+              - column:
+                  name: state
+                  value: 'NEW'
+              - column:
+                  name: size
+                  value: '20'
+              - column:
+                  name: user_name
+                  value: 'alexey'
+        - insert:
+            tableName: files
+            columns:
+              - column:
+                  name: name
+                  value: 'newFile_3.txt'
+              - column:
+                  name: token
+                  value: 'zxcvb'
+              - column:
+                  name: state
+                  value: 'NEW'
+              - column:
+                  name: size
+                  value: '40'
+              - column:
+                  name: user_name
+                  value: 'alexey'
