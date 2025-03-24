@@ -1,6 +1,5 @@
 package com.example.demo.file;
 
-import com.example.demo.utils.FileStatus;
 import jakarta.persistence.*;
 import lombok.Data;
 

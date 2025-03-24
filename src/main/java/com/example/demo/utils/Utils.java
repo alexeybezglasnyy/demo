@@ -5,7 +5,6 @@ import java.time.format.DateTimeFormatter;
 
 import static com.example.demo.utils.Constants.DATE_TIME_PATTERN;
 import static java.time.format.DateTimeFormatter.ofPattern;
-import static java.util.UUID.randomUUID;
 
 public class Utils {
 
@@ -13,9 +12,5 @@ public class Utils {
 
     public static String formatDate(LocalDateTime dateTime) {
         return DATE_TIME_FORMATTER.format(dateTime);
-    }
-
-    public static String generateFileToken() {
-        return randomUUID().toString();
     }
 }
